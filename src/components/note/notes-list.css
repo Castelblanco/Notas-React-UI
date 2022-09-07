@@ -1,0 +1,49 @@
+.note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cero_notes{
+    margin: 25vh 0;
+    text-align: center;
+}
+
+.tray_btns{
+    text-align: right;
+    width: 22%;
+}
+
+.tray_btns p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+}
+
+.btn_action{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+}
+
+.btn_action button{
+    width: 20%;
+    max-width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_action button img{
+    width: 100%;
+}
+
+.btn_action_edit{ background-color: #07f; }
+.btn_action_edit:hover{ background-color: #07fa; }
+
+.btn_action_trash{ background-color: #f00; }
+.btn_action_trash:hover{ background-color: #f00e; }

@@ -1,0 +1,27 @@
+.nav_notes{
+    display: flex;
+    min-width: 230px;
+    margin: 10px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.nav_notes button{
+    margin: 0 auto;
+    padding: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.nav_notes button:hover{ border-bottom: 4px solid #555; }
+
+.tray_notes{
+    height: 65vh;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 552px){
+    .nav_notes button{
+        margin: 0 20px;
+    }
+}
